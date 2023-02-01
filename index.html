@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TOP: Admin Dashboard Project</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="sidebar">
+                <div class="sidebar-logo">
+                    <a href="">
+                        <h2 class="dashboard">Dashboard</h2>
+                    </a>
+                </div>
+                <div class="h-divider" id="top-divider"></div>
+                <div class="sidebar-list" id="sidebar-list1">
+                    <div class="sidebar-div">
+                        <img class="icon" src="./assets/logos/home2.svg">
+                        <a href="">
+                            <h3>Home</h3>
+                        </a>
+                    </div>
+                    <div class="sidebar-div">
+                        <img class="icon" src="./assets/logos/profile.svg">
+                        <a href="">
+                            <h3>Profile</h3>
+                        </a>
+                    </div>
+                    <div class="sidebar-div">
+                        <img class="icon" src="./assets/logos/message.svg">
+                        <a href="">
+                            <h3>Messages</h3>
+                        </a>
+                    </div>
+                    <div class="sidebar-div">
+                        <img class="icon" src="./assets/logos/history.svg">
+                        <a href="">
+                            <h3>History</h3>
+                        </a>
+                    </div>
+                    <div class="sidebar-div">
+                        <img class="icon" src="./assets/logos/task.svg">
+                        <a href="">
+                            <h3>Tasks</h3>
+                        </a>
+                    </div>
+                    <div class="sidebar-div">
+                        <img class="icon" src="./assets/logos/community.svg">
+                        <a href="">
+                            <h3>Community</h3>
+                        </a>
+                    </div>
+                </div>
+                <div class="sidebar-list" id="sidebar-list2">
+                    <div class="sidebar-div">
+                        <img class="icon" src="./assets/logos/settings.svg">
+                        <a href="">
+                            <h3>Settings</h3>
+                        </a>
+                    </div>
+                    <div class="sidebar-div">
+                        <img class="icon" src="./assets/logos/help.svg">
+                        <a href="">
+                            <h3>Help</h3>
+                        </a>
+                    </div>
+                    <div class="sidebar-div">
+                        <img class="icon" src="./assets/logos/privacy.svg">
+                        <a href="">
+                            <h3>Privacy</h3>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header">
+                <div class="header-bar">
+                    <div class="nav">
+                        <ul>
+                            <li><a href="">
+                                <h3>New</h3>
+                            </a></li>
+                            <li><a href="">
+                                <h3>Upload</h3>
+                            </a></li>
+                            <li><a href="">
+                                <h3>Share</h3>
+                            </a></li>
+                        </ul>
+                    </div>
+                    <div class="search"></div>
+                    <div class="toggle">
+                        <img class="h-icon" src="./assets/logos/theme.svg" />
+                        <img class="h-icon" id="bell" src="./assets/logos/notification.svg" /></div>
+                    <div class="v-divider"></div>
+                    <div class="welcome">
+                        <div class="avatar"></div>
+                        <h2>Welcome, User!</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main">
+                <h2 class="your-projects">Your Projects</h2>
+                <div class="project-box">
+                    <div class="project-card">
+                        <h3 class="project-title"><a href="">Super Cool Project</a></h3>
+                        <div class="project-img" style="background-image: url(./assets/photos/sample-1.jpg); background-position: center; background-size: cover;"></div>
+                        <p>Cras et imperdiet dui. Aliquam erat volutpat. Etiam semper, arcu congue feugiat rhoncus, felis felis congue massa, sed
+                        dictum turpis arcu non augue. Mauris augue mi, consectetur et iaculis vel, pulvinar vel eros. Phasellus dignissim
+                        lacinia mauris, ac mollis tellus porta id. Integer a ipsum in nulla sollicitudin ultrices sit amet dictum ex. In eu enim
+                        nec sem ullamcorper iaculis. Maecenas sed massa vel orci molestie congue.</p>
+                        <div class="project-interactions">
+                            <a href=""><img class="project-icon" src="./assets/logos/fav.svg"></a>
+                            <a href=""><img class="project-icon" src="./assets/logos/download.svg"></a>
+                            <a href=""><img class="project-icon" src="./assets/logos/share.svg"></a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h3 class="project-title"><a href="">Less Cool Project</a></h3>
+                        <div class="project-img" style="background-image: url(./assets/photos/sample-2.jpg); background-position: center; background-size: cover;"></div>
+                        <p>Nulla eu venenatis erat. In lacinia tincidunt convallis. Suspendisse potenti. Morbi in risus fermentum, suscipit felis
+                        ut, efficitur dui. Sed vel velit ut purus fermentum hendrerit. Sed eget interdum magna, mollis porta dolor. Integer
+                        lacinia justo sit amet purus aliquam, vitae egestas neque sodales.</p>
+                        <div class="project-interactions">
+                            <a href=""><img class="project-icon" src="./assets/logos/fav.svg"></a>
+                            <a href=""><img class="project-icon" src="./assets/logos/download.svg"></a>
+                            <a href=""><img class="project-icon" src="./assets/logos/share.svg"></a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h3 class="project-title"><a href="">Impossible Project</a></h3>
+                        <div class="project-img" style="background-image: url(./assets/photos/sample-3.jpg); background-position: center; background-size: cover;"></div>
+                        <p>Quisque consequat odio eget aliquet bibendum. Nunc malesuada quis tortor id vehicula. Nam interdum sem id eros malesuada
+                        consectetur vel nec odio. Suspendisse non sapien diam. Fusce eu enim orci. Donec a sem in ligula rutrum vestibulum eget
+                        vitae lacus. Vivamus id felis commodo, consequat arcu quis, dignissim arcu. Duis id consectetur orci.</p>
+                        <div class="project-interactions">
+                            <a href=""><img class="project-icon" src="./assets/logos/fav.svg"></a>
+                            <a href=""><img class="project-icon" src="./assets/logos/download.svg"></a>
+                            <a href=""><img class="project-icon" src="./assets/logos/share.svg"></a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h3 class="project-title"><a href="">Easy Peasy Project</a></h3>
+                        <div class="project-img" style="background-image: url(./assets/photos/sample-4.jpg); background-position: center; background-size: cover;"></div>
+                        <p>Donec nec lacus eleifend, pretium massa in, feugiat leo. Nam sapien libero, molestie eget elit ac, scelerisque mollis
+                        lectus. Duis et massa venenatis, convallis quam non, sollicitudin dui. Vivamus odio est, mattis nec ultrices et,
+                        ullamcorper sed est. Nulla mattis elit ex, at venenatis felis lobortis eu. Aenean faucibus sit amet tortor at malesuada.
+                        Fusce in gravida neque. Sed ac ante congue, mollis lectus eget, posuere arcu. Mauris eu auctor leo, et elementum ligula.
+                        
+                        Sed consectetur fermentum magna. Morbi imperdiet sollicitudin ligula</p>
+                        
+                        
+                        <div class="project-interactions">
+                            <a href=""><img class="project-icon" src="./assets/logos/fav.svg"></a>
+                            <a href=""><img class="project-icon" src="./assets/logos/download.svg"></a>
+                            <a href=""><img class="project-icon" src="./assets/logos/share.svg"></a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h3 class="project-title"><a href="">Ad Blocker</a></h3>
+                        <div class="project-img" style="background-image: url(./assets/photos/sample-5.jpg); background-position: center; background-size: cover;"></div>
+                        <p>Cras pulvinar massa scelerisque justo maximus imperdiet. Pellentesque habitant morbi tristique senectus et netus et
+                        malesuada fames ac turpis egestas. Morbi vel odio tristique, imperdiet eros congue, bibendum elit. Phasellus molestie
+                        odio vel felis vestibulum rhoncus. Pellentesque vitae felis elit. Praesent auctor magna quis lorem laoreet, nec volutpat
+                        sem hendrerit. Donec ut euismod ante. Integer sodales pharetra sapien, non malesuada purus consequat quis. Praesent
+                        purus lorem, varius nec tempus in, pulvinar eget urna. Donec ullamcorper, magna eget sodales venenatis, enim metus
+                        maximus mauris, quis hendrerit ex tortor ut orci. Donec gravida tortor id nunc sollicitudin ultrices. In eu dolor eu
+                        odio euismod lacinia. Aenean egestas, est quis dignissim vestibulum, eros urna maximus tortor, sed maximus neque ligula
+                        et lectus.</p>
+                        
+                        
+                        <div class="project-interactions">
+                            <a href=""><img class="project-icon" src="./assets/logos/fav.svg"></a>
+                            <a href=""><img class="project-icon" src="./assets/logos/download.svg"></a>
+                            <a href=""><img class="project-icon" src="./assets/logos/share.svg"></a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h3 class="project-title"><a href="">Money Maker</a></h3>
+                        <div class="project-img" style="background-image: url(./assets/photos/sample-6.jpg); background-position: center; background-size: cover;"></div>
+                        <p>Praesent mattis, lacus non iaculis fringilla, orci est pretium sapien, ut scelerisque diam est vel urna. Sed in aliquet
+                        libero. Phasellus volutpat tristique tellus vel accumsan. Nam sed scelerisque magna, quis mollis lorem. Vestibulum sit
+                        amet sapien eu lectus rhoncus accumsan. Quisque quis lorem vel mi venenatis pellentesque. Nunc tempor dui vitae dolor
+                        faucibus mattis. Vestibulum suscipit fringilla nisi nec dignissim. Vestibulum vitae tellus sodales libero varius
+                        ultrices. Proin tristique ultrices eleifend. Proin eleifend, sem eu lacinia pharetra, justo neque elementum velit, non
+                        tempus enim libero sit amet nisl.</p>
+                        
+                        
+                        <div class="project-interactions">
+                            <a href=""><img class="project-icon" src="./assets/logos/fav.svg"></a>
+                            <a href=""><img class="project-icon" src="./assets/logos/download.svg"></a>
+                            <a href=""><img class="project-icon" src="./assets/logos/share.svg"></a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h3 class="project-title"><a href="">Video Camera</a></h3>
+                        <div class="project-img"
+                            style="background-image: url(./assets/photos/sample-7.jpg); background-position: center; background-size: cover;">
+                        </div>
+                        <p>Quisque nunc felis, interdum ut vestibulum quis, mollis vel mi. Nulla posuere pretium tincidunt. Mauris rhoncus sem a
+                        tempor tempor. Sed sit amet mi quis nunc ullamcorper dictum ac sit amet magna. Etiam consequat justo ex, et maximus
+                        neque imperdiet sit amet. Maecenas justo arcu, volutpat vel efficitur vel, finibus maximus justo. Suspendisse
+                        consectetur nec purus vitae euismod. Donec eget erat eros. Praesent lorem nisl, dignissim vitae tortor in, feugiat
+                        elementum dui.</p>
+                        
+                        
+                        <div class="project-interactions">
+                            <a href=""><img class="project-icon" src="./assets/logos/fav.svg"></a>
+                            <a href=""><img class="project-icon" src="./assets/logos/download.svg"></a>
+                            <a href=""><img class="project-icon" src="./assets/logos/share.svg"></a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h3 class="project-title"><a href="">AI Assistant</a></h3>
+                        <div class="project-img"
+                            style="background-image: url(./assets/photos/sample-8.jpg); background-position: center; background-size: cover;">
+                        </div>
+                        <p>Sed id purus quis neque pretium facilisis. In est ipsum, dignissim in dolor vitae, efficitur tristique dui. Morbi
+                        sodales consequat mauris. Phasellus dapibus vehicula cursus. Morbi in libero condimentum, gravida felis at, pulvinar
+                        diam. Ut elementum porta risus, ac tempor arcu rutrum et. Nulla eu ex facilisis, euismod lacus ut, tristique orci. Sed
+                        fringilla congue vestibulum. In maximus facilisis mauris, ut commodo nulla cursus egestas. Nunc elementum venenatis
+                        tortor et ornare. Curabitur elementum convallis justo, vulputate tempor nulla facilisis id. Donec ac venenatis lacus. Ut
+                        tempor mauris eu lectus hendrerit ornare. Morbi pulvinar tempus neque commodo dapibus. Proin in dignissim dolor, eget
+                        consequat libero.</p>
+                        
+                        
+                        <div class="project-interactions">
+                            <a href=""><img class="project-icon" src="./assets/logos/fav.svg"></a>
+                            <a href=""><img class="project-icon" src="./assets/logos/download.svg"></a>
+                            <a href=""><img class="project-icon" src="./assets/logos/share.svg"></a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h3 class="project-title"><a href="">Best Project Ever</a></h3>
+                        <div class="project-img"
+                            style="background-image: url(./assets/photos/sample-9.jpg); background-position: center; background-size: cover;">
+                        </div>
+                        <p>Nunc at condimentum est. Nunc non justo ut magna pellentesque suscipit. Curabitur sit amet porttitor urna. Morbi dapibus
+                        ipsum nulla, eget lacinia arcu accumsan sit amet. Cras sit amet auctor dolor. In hac habitasse platea dictumst. Nunc
+                        commodo nisl a consequat volutpat. Vestibulum nec nisl rhoncus eros posuere auctor. Nullam.</p>
+                        
+                        
+                        <div class="project-interactions">
+                            <a href=""><img class="project-icon" src="./assets/logos/fav.svg"></a>
+                            <a href=""><img class="project-icon" src="./assets/logos/download.svg"></a>
+                            <a href=""><img class="project-icon" src="./assets/logos/share.svg"></a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h3 class="project-title"><a href="">Worst Project Ever</a></h3>
+                        <div class="project-img"
+                            style="background-image: url(./assets/photos/sample-10.jpg); background-position: center; background-size: cover;">
+                        </div>
+                        <p>Fusce id nunc sed leo rhoncus rutrum. Morbi eget aliquet lectus, quis mattis augue. Proin sed cursus elit. Nullam
+                        volutpat, lectus ut suscipit aliquet, massa lacus volutpat est, ac ultricies augue augue nec ligula. Phasellus.</p>
+                        
+                        
+                        <div class="project-interactions">
+                            <a href=""><img class="project-icon" src="./assets/logos/fav.svg"></a>
+                            <a href=""><img class="project-icon" src="./assets/logos/download.svg"></a>
+                            <a href=""><img class="project-icon" src="./assets/logos/share.svg"></a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h3 class="project-title"><a href="">The Next Facebook</a></h3>
+                        <div class="project-img"
+                            style="background-image: url(./assets/photos/sample-11.jpg); background-position: center; background-size: cover;">
+                        </div>
+                        <p>Ut et quam non odio molestie convallis. Quisque vel facilisis mauris. Duis et finibus enim. Aliquam suscipit, nulla quis
+                        ultrices convallis, magna magna fringilla quam, a posuere nisi dui sed eros. Aenean laoreet ex eu.</p>
+                        
+                        
+                        <div class="project-interactions">
+                            <a href=""><img class="project-icon" src="./assets/logos/fav.svg"></a>
+                            <a href=""><img class="project-icon" src="./assets/logos/download.svg"></a>
+                            <a href=""><img class="project-icon" src="./assets/logos/share.svg"></a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h3 class="project-title"><a href="">GTA Clone</a></h3>
+                        <div class="project-img"
+                            style="background-image: url(./assets/photos/sample-12.jpg); background-position: center; background-size: cover;">
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                            magna
+                            aliqua. Ut enim ad minim veniam, quis nostrud...</p>
+                        
+                        
+                        <div class="project-interactions">
+                            <a href=""><img class="project-icon" src="./assets/logos/fav.svg"></a>
+                            <a href=""><img class="project-icon" src="./assets/logos/download.svg"></a>
+                            <a href=""><img class="project-icon" src="./assets/logos/share.svg"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <h2 class="announcements">Announcements</h2>
+                <div class="right-panel">
+                    <div class="announcements-box">
+                        <h3 class="announcement-title"><a href="">Site Maintenance</a></h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                            magna
+                            aliqua. Ut enim ad minim veniam, quis nostrud...</p>
+                        
+                        <div class="h-divider"></div>
+
+                        <h3 class="announcement-title"><a href="">Community Share Day</a></h3>
+                        <p>Aliquam ac augue et sapien mollis pulvinar sit amet eu felis. Mauris quis fringilla ex. Fusce nec tellus mauris. Vivamus
+                        id sollicitudin turpis, nec mollis lacus. Cras at ante ultrices, tincidunt nibh at, fermentum enim.</p>
+
+                        <div class="h-divider"></div>
+                            
+                        <h3 class="announcement-title"><a href="">Updated Privacy Policy</a></h3>
+                        <p>Integer malesuada tortor urna, id tempor dui luctus vel. Morbi nec tincidunt eros, quis placerat sapien. Integer egestas
+                        risus id ultricies vulputate. Duis lacinia nisl tellus. Vestibulum auctor nulla sit amet quam tristique luctus. Nam.</p>
+                                    
+                    </div>
+                    
+                    <h2 class="trending">Trending</h2>
+                    <div class="trending-box">
+                        <div class="trending-card">
+                            <div class="trending-avi" style="background-image: url(./assets/photos/Avatar1.jpg); background-position: center; background-size: cover;"></div>
+                            <div class="trending-info">
+                                <h3 class="trending-name"><a href="">@Tegan</a></h3>
+                                <p class="trending-project">World Peace Builder</p>
+                            </div>
+                        </div>
+                        <div class="h-divider"></div>
+
+                        <div class="trending-card">
+                            <div class="trending-avi" style="background-image: url(./assets/photos/Avatar2.jpg); background-position: center; background-size: cover;"></div>
+                            <div class="trending-info">
+                                <h3 class="trending-name"><a href="">@Morgan</a></h3>
+                                <p class="trending-project">Super Cool Project</p>
+                            </div>
+                        </div>
+                        <div class="h-divider"></div>
+
+                        <div class="trending-card">
+                            <div class="trending-avi" style="background-image: url(./assets/photos/Avatar3.jpg); background-position: center; background-size: cover;"></div>
+                            <div class="trending-info">
+                                <h3 class="trending-name"><a href="">@Alex</a></h3>
+                                <p class="trending-project">No Traffic Maker</p>
+                            </div>
+                        </div>
+                        <div class="h-divider"></div>
+
+                        <div class="trending-card">
+                            <div class="trending-avi" style="background-image: url(./assets/photos/Avatar4.jpg); background-position: center; background-size: cover;"></div>
+                            <div class="trending-info">
+                                <h3 class="trending-name"><a href="">@Kendall</a></h3>
+                                <p class="trending-project">Life Changing App</p>
+                            </div>
+                        </div>
+
+                        <!-- CREDIT: Avatars provided by <a href="https://www.freepik.com/free-vector/multiracial-people-avatars_7085153.htm#query=avatar&position=0&from_view=keyword">Image by pikisuperstar</a> on Freepik -->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
